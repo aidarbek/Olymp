@@ -1,0 +1,20 @@
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+wrong answer Not enough lines! "10804" expected
+wrong answer Extra lines! "OOPS" encountered

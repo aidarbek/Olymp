@@ -1,0 +1,20 @@
+ok Ok
+wrong answer Line 1 - expected: "572727", found: "628799"
+wrong answer Line 1 - expected: "593931", found: "607009"
+wrong answer Line 1 - expected: "502485", found: "533065"
+wrong answer Line 1 - expected: "547434", found: "713802"
+wrong answer Line 1 - expected: "627367", found: "804855"
+wrong answer Line 1 - expected: "591161", found: "895733"
+wrong answer Line 1 - expected: "631350", found: "866957"
+wrong answer Line 1 - expected: "586947", found: "736486"
+wrong answer Line 1 - expected: "660458", found: "887733"
+ok Ok
+ok Ok
+wrong answer Line 1 - expected: "350378", found: "450034"
+wrong answer Line 1 - expected: "502019", found: "762426"
+wrong answer Line 1 - expected: "569329", found: "881885"
+wrong answer Line 1 - expected: "596101", found: "912690"
+wrong answer Line 1 - expected: "570981", found: "877092"
+wrong answer Line 1 - expected: "635549", found: "754018"
+wrong answer Line 1 - expected: "625066", found: "746636"
+wrong answer Line 1 - expected: "548330", found: "954505"

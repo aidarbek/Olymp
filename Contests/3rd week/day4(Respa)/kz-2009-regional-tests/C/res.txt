@@ -1,0 +1,17 @@
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+ok Ok
+wrong answer Not enough lines! "267329" expected
+wrong answer Not enough lines! "160700" expected
+wrong answer Not enough lines! "867746" expected
+wrong answer Not enough lines! "588342" expected
+wrong answer Not enough lines! "640016" expected
+wrong answer Not enough lines! "734062" expected
+ok Ok

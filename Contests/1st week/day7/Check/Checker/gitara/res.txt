@@ -1,0 +1,10 @@
+wrong answer Line 1 - expected: "14", found: "15"
+wrong answer Line 1 - expected: "683", found: "287"
+wrong answer Line 1 - expected: "972", found: "730"
+wrong answer Line 1 - expected: "9832", found: "4719"
+wrong answer Line 1 - expected: "9971", found: "5633"
+wrong answer Not enough lines! "942334" expected
+wrong answer Not enough lines! "399975" expected
+wrong answer Not enough lines! "399905" expected
+wrong answer Not enough lines! "999951" expected
+wrong answer Not enough lines! "999886" expected

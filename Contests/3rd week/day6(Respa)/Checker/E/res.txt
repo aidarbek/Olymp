@@ -1,0 +1,21 @@
+wrong answer Not enough lines! "98" expected
+wrong answer Not enough lines! "96" expected
+wrong answer Not enough lines! "286" expected
+wrong answer Line 1 - expected: "252", found: "1"
+wrong answer Line 1 - expected: "441", found: "1"
+wrong answer Not enough lines! "310" expected
+wrong answer Not enough lines! "287" expected
+wrong answer Not enough lines! "1100" expected
+wrong answer Not enough lines! "451" expected
+wrong answer Not enough lines! "1067" expected
+wrong answer Not enough lines! "No solution" expected
+wrong answer Not enough lines! "1311" expected
+wrong answer Line 1 - expected: "2745", found: "0"
+wrong answer Line 1 - expected: "5628", found: "2"
+wrong answer Not enough lines! "4990" expected
+wrong answer Not enough lines! "5281" expected
+wrong answer Line 1 - expected: "5947", found: "30"
+wrong answer Line 1 - expected: "45428", found: "30"
+wrong answer Line 1 - expected: "9689", found: "30"
+wrong answer Line 1 - expected: "8269", found: "30"
+wrong answer Extra lines! "30" encountered

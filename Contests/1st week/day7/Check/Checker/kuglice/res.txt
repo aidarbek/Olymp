@@ -1,0 +1,10 @@
+wrong answer Line 1 - expected: "9", found: "CIKLUS"
+wrong answer Line 1 - expected: "1", found: "CIKLUS"
+wrong answer Line 1 - expected: "30", found: "CIKLUS"
+wrong answer Not enough lines! "CIKLUS" expected
+wrong answer Line 1 - expected: "50000", found: "CIKLUS"
+wrong answer Line 1 - expected: "290000", found: "CIKLUS"
+wrong answer Line 1 - expected: "290000", found: "CIKLUS"
+wrong answer Line 1 - expected: "200000", found: "CIKLUS"
+wrong answer Line 1 - expected: "300000", found: "CIKLUS"
+wrong answer Not enough lines! "CIKLUS" expected
