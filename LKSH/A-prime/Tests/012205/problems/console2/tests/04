@@ -1,0 +1,195 @@
+3
+time
+Modem reports:
+Setting
+& 02 Nov 17:07:19 MAIL Events procevt=0 setevt=0:
+& 02 Nov 17:07:19 MAIL UTC current value is 0
+& 02 Nov 17:07:20 MAIL RDTSC(open port): 000000000873C125
+& 02 Nov 17:07:20 MAIL RDTSC(get comm state): 0000000008893053
+& 02 Nov 17:07:20 MAIL RDTSC(set comm state): 0000000008BAE1D4
+& 02 Nov 17:07:20 MAIL RDTSC(setup comm state): 0000000008E7DF99
+& 02 Nov 17:07:20 MAIL RDTSC(set comm timeouts): 00000000091523A5
+& 02 Nov 17:07:20 MAIL RDTSC(set dtr): 000000000945E69D
+& 02 Nov 17:07:20 MAIL RDTSC(create events): 00000000096913F0
+& 02 Nov 17:07:20 MAIL RDTSC(create buffer): 0000000009A46B15
+& 02 Nov 17:07:20 MAIL RDTSC(create thread): 0000000009D8FAB7
+& 02 Nov 17:07:20 MAIL RDTSC(complete): 000000000A0D0204
+& 02 Nov 17:07:20 MAIL RDTSC(modem port init): 000000000ACFE6D6
+% 02 Nov 17:07:20 MAIL KittenMail WIN32.0.10.3u3 --> starting
+? 02 Nov 17:07:20 MAIL Unable to open nodelist index
+& 02 Nov 17:07:20 MAIL BSO fastscan time: 0.02
+& 02 Nov 17:07:20 MAIL BSO/Boxes scan time: 0.02
+& 02 Nov 17:07:20 MAIL Outbound rescan time: 0.03
+& 02 Nov 17:07:21 MAIL Modem reports: atz
+& 02 Nov 17:07:21 MAIL Modem reports: OK
+% 02 Nov 17:07:24 MAIL Created poll for 2:5030/744
+& 02 Nov 17:07:24 MAIL Node 2:5030/744: queue nodelist data added
+& 02 Nov 17:07:25 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:07:25 MAIL BSO/Boxes scan time: 0.00
+& 02 Nov 17:07:25 MAIL Outbound rescan time: 0.01
+
+> 02 Nov 17:07:25 MAIL Calling 2:5030/744, 113-4135
+& 02 Nov 17:07:25 MAIL Modem reports: ATDP113-4135
+& 02 Nov 17:07:35 MAIL Modem reports: NO DIALTONE
+* 02 Nov 17:07:35 MAIL No dial tone
+& 02 Nov 17:07:38 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:07:38 MAIL BSO/Boxes scan time: 0.00
+& 02 Nov 17:07:38 MAIL Outbound rescan time: 0.01
+> 02 Nov 17:07:38 MAIL Calling 2:5030/744, 113-4135
+& 02 Nov 17:07:38 MAIL Modem reports: ATDP113-4135
+* 02 Nov 17:07:39 MAIL Interrupted from keyboard
+& 02 Nov 17:07:40 MAIL Modem reports: NO CARRIER
+% 02 Nov 17:07:40 MAIL KittenMail WIN32.0.10.3u3 --> exiting
+% 02 Nov 17:07:40 MAIL (errorlevel 0 -- exit has been requested from keyboard)
+
+& 02 Nov 17:07:40 MAIL exit: 0.02
+& 02 Nov 17:07:40 MAIL RDTSC(exit): 000000000083B1D1
+& 02 Nov 17:07:40 MAIL Events procevt=0 setevt=0:
+& 02 Nov 17:07:40 MAIL UTC current value is 0
+& 02 Nov 17:07:50 MAIL Events procevt=0 setevt=0:
+& 02 Nov 17:07:50 MAIL UTC current value is 0
+& 02 Nov 17:07:51 MAIL RDTSC(open port): 0000000005B68733
+& 02 Nov 17:07:51 MAIL RDTSC(get comm state): 0000000005C4CA8F
+& 02 Nov 17:07:51 MAIL RDTSC(set comm state): 00000000063304E8
+& 02 Nov 17:07:51 MAIL RDTSC(setup comm state): 0000000006A195F9
+& 02 Nov 17:07:51 MAIL RDTSC(set comm timeouts): 00000000070F0EF9
+& 02 Nov 17:07:51 MAIL RDTSC(set dtr): 00000000077DC839
+& 02 Nov 17:07:51 MAIL RDTSC(create events): 000000000788B380
+& 02 Nov 17:07:51 MAIL RDTSC(create buffer): 00000000085A0181
+& 02 Nov 17:07:51 MAIL RDTSC(create thread): 000000000882BC5B
+& 02 Nov 17:07:51 MAIL RDTSC(complete): 0000000008D60690
+& 02 Nov 17:07:51 MAIL RDTSC(modem port init): 0000000009434F89
+% 02 Nov 17:07:51 MAIL KittenMail WIN32.0.10.3u3 --> starting
+? 02 Nov 17:07:51 MAIL Unable to open nodelist index
+& 02 Nov 17:07:51 MAIL nodelist rescan time: 0.00
+& 02 Nov 17:07:51 MAIL BSO fastscan time: 0.02
+& 02 Nov 17:07:51 MAIL BSO/Boxes scan time: 0.02
+& 02 Nov 17:07:51 MAIL Outbound rescan time: 0.05
+& 02 Nov 17:07:52 MAIL Modem reports: atz
+& 02 Nov 17:07:52 MAIL Modem reports: OK
+& 02 Nov 17:07:52 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:07:52 MAIL BSO/Boxes scan time: 0.00
+& 02 Nov 17:07:52 MAIL Outbound rescan time: 0.01
+
+> 02 Nov 17:07:52 MAIL Calling 2:5030/744, ATDP113-4135
+& 02 Nov 17:07:53 MAIL Modem reports: ATDP113-4135
+* 02 Nov 17:07:54 MAIL Interrupted from keyboard
+& 02 Nov 17:07:55 MAIL Modem reports: NO CARRIER
+% 02 Nov 17:07:55 MAIL KittenMail WIN32.0.10.3u3 --> exiting
+% 02 Nov 17:07:55 MAIL (errorlevel 0 -- exit has been requested from keyboard)
+
+& 02 Nov 17:07:55 MAIL exit: 0.00
+& 02 Nov 17:07:55 MAIL RDTSC(exit): 000000000015B6A1
+& 02 Nov 17:07:55 MAIL Events procevt=0 setevt=0:
+& 02 Nov 17:07:55 MAIL UTC current value is 0
+& 02 Nov 17:08:00 MAIL Events procevt=0 setevt=0:
+& 02 Nov 17:08:00 MAIL UTC current value is 0
+& 02 Nov 17:08:00 MAIL RDTSC(open port): 0000000003CBDDD1
+& 02 Nov 17:08:00 MAIL RDTSC(get comm state): 0000000003D92B2F
+& 02 Nov 17:08:00 MAIL RDTSC(set comm state): 000000000498E0B0
+& 02 Nov 17:08:00 MAIL RDTSC(setup comm state): 0000000004E97829
+& 02 Nov 17:08:00 MAIL RDTSC(set comm timeouts): 0000000005135569
+& 02 Nov 17:08:00 MAIL RDTSC(set dtr): 0000000005817DBD
+& 02 Nov 17:08:00 MAIL RDTSC(create events): 0000000005EFD114
+& 02 Nov 17:08:00 MAIL RDTSC(create buffer): 000000000639AD81
+& 02 Nov 17:08:00 MAIL RDTSC(create thread): 00000000066E38C3
+& 02 Nov 17:08:00 MAIL RDTSC(complete): 0000000006DA267C
+& 02 Nov 17:08:00 MAIL RDTSC(modem port init): 000000000746ECBC
+% 02 Nov 17:08:00 MAIL KittenMail WIN32.0.10.3u3 --> starting
+? 02 Nov 17:08:00 MAIL Unable to open nodelist index
+& 02 Nov 17:08:00 MAIL BSO fastscan time: 0.03
+& 02 Nov 17:08:00 MAIL Rescan: bso\13a602e8.flo
+& 02 Nov 17:08:00 MAIL BSO/Boxes scan time: 0.04
+& 02 Nov 17:08:00 MAIL Node 2:5030/744: queue nodelist data added
+& 02 Nov 17:08:00 MAIL Outbound rescan time: 0.04
+& 02 Nov 17:08:01 MAIL Modem reports: atz
+& 02 Nov 17:08:01 MAIL Modem reports: OK
+& 02 Nov 17:08:02 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:08:02 MAIL BSO/Boxes scan time: 0.01
+& 02 Nov 17:08:02 MAIL Outbound rescan time: 0.01
+
+> 02 Nov 17:08:02 MAIL Calling 2:5030/744, ato113-4135
+& 02 Nov 17:08:02 MAIL Modem reports: ato113-4135
+& 02 Nov 17:08:02 MAIL Modem reports: ERROR
+* 02 Nov 17:08:02 MAIL Modem reports error
+% 02 Nov 17:08:04 MAIL KittenMail WIN32.0.10.3u3 --> exiting
+% 02 Nov 17:08:04 MAIL (errorlevel 0 -- exit has been requested from keyboard)
+
+& 02 Nov 17:08:04 MAIL exit: 0.00
+& 02 Nov 17:08:04 MAIL RDTSC(exit): 00000000009AA4CD
+& 02 Nov 17:08:04 MAIL Events procevt=0 setevt=0:
+& 02 Nov 17:08:04 MAIL UTC current value is 0
+& 02 Nov 17:08:21 MAIL Events procevt=0 setevt=0:
+& 02 Nov 17:08:21 MAIL UTC current value is 0
+& 02 Nov 17:08:22 MAIL RDTSC(open port): 0000000006C3826F
+& 02 Nov 17:08:22 MAIL RDTSC(get comm state): 0000000006DB76F3
+& 02 Nov 17:08:22 MAIL RDTSC(set comm state): 00000000079ABA4C
+& 02 Nov 17:08:22 MAIL RDTSC(setup comm state): 0000000007CA19CD
+& 02 Nov 17:08:22 MAIL RDTSC(set comm timeouts): 00000000083F61B5
+& 02 Nov 17:08:22 MAIL RDTSC(set dtr): 0000000008A8562D
+& 02 Nov 17:08:22 MAIL RDTSC(create events): 0000000008D87E98
+& 02 Nov 17:08:22 MAIL RDTSC(create buffer): 00000000094CB63D
+& 02 Nov 17:08:22 MAIL RDTSC(create thread): 0000000009C6AC2B
+& 02 Nov 17:08:22 MAIL RDTSC(complete): 000000000A3F8408
+& 02 Nov 17:08:22 MAIL RDTSC(modem port init): 000000000AB6B038
+% 02 Nov 17:08:22 MAIL KittenMail WIN32.0.10.3u3 --> starting
+? 02 Nov 17:08:22 MAIL Unable to open nodelist index
+& 02 Nov 17:08:22 MAIL nodelist rescan time: 0.00
+& 02 Nov 17:08:22 MAIL BSO fastscan time: 0.01
+& 02 Nov 17:08:22 MAIL BSO/Boxes scan time: 0.04
+& 02 Nov 17:08:22 MAIL Outbound rescan time: 0.04
+& 02 Nov 17:08:23 MAIL Modem reports: atz
+& 02 Nov 17:08:23 MAIL Modem reports: OK
+& 02 Nov 17:08:23 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:08:23 MAIL BSO/Boxes scan time: 0.00
+& 02 Nov 17:08:23 MAIL Outbound rescan time: 0.01
+
+> 02 Nov 17:08:23 MAIL Calling 2:5030/744, atoh1
+& 02 Nov 17:08:24 MAIL Modem reports: atoh1
+& 02 Nov 17:08:24 MAIL Modem reports: ERROR
+* 02 Nov 17:08:24 MAIL Modem reports error
+% 02 Nov 17:08:25 MAIL KittenMail WIN32.0.10.3u3 --> exiting
+% 02 Nov 17:08:25 MAIL (errorlevel 0 -- exit has been requested from keyboard)
+
+& 02 Nov 17:08:25 MAIL exit: 0.02
+& 02 Nov 17:08:25 MAIL RDTSC(exit): 000000000084F451
+& 02 Nov 17:08:25 MAIL Events procevt=0 setevt=0:
+& 02 Nov 17:08:25 MAIL UTC current value is 0
+& 02 Nov 17:08:28 MAIL Events procevt=0 setevt=0:
+& 02 Nov 17:08:28 MAIL UTC current value is 0
+& 02 Nov 17:08:28 MAIL RDTSC(open port): 0000000004364531
+& 02 Nov 17:08:28 MAIL RDTSC(get comm state): 00000000044AFBC3
+& 02 Nov 17:08:28 MAIL RDTSC(set comm state): 0000000004D9AB8C
+& 02 Nov 17:08:28 MAIL RDTSC(setup comm state): 00000000055004C1
+& 02 Nov 17:08:28 MAIL RDTSC(set comm timeouts): 0000000005C26DAD
+& 02 Nov 17:08:28 MAIL RDTSC(set dtr): 000000000636881D
+& 02 Nov 17:08:28 MAIL RDTSC(create events): 00000000069F5C4C
+& 02 Nov 17:08:28 MAIL RDTSC(create buffer): 0000000006CEC08D
+& 02 Nov 17:08:28 MAIL RDTSC(create thread): 000000000749BEB8
+& 02 Nov 17:08:28 MAIL RDTSC(complete): 0000000007C1ECEC
+& 02 Nov 17:08:28 MAIL RDTSC(modem port init): 0000000007F24338
+% 02 Nov 17:08:28 MAIL KittenMail WIN32.0.10.3u3 --> starting
+? 02 Nov 17:08:28 MAIL Unable to open nodelist index
+& 02 Nov 17:08:28 MAIL nodelist rescan time: 0.00
+& 02 Nov 17:08:28 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:08:28 MAIL BSO/Boxes scan time: 0.01
+& 02 Nov 17:08:28 MAIL Outbound rescan time: 0.01
+& 02 Nov 17:08:29 MAIL Modem reports: atz
+& 02 Nov 17:08:29 MAIL Modem reports: OK
+
+< 02 Nov 17:08:30 MAIL Answering incoming call...
+& 02 Nov 17:08:31 MAIL Modem reports: atlm1a
+* 02 Nov 17:08:35 MAIL Interrupted from keyboard
+& 02 Nov 17:08:36 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:08:36 MAIL BSO/Boxes scan time: 0.00
+& 02 Nov 17:08:36 MAIL Outbound rescan time: 0.00
+& 02 Nov 17:08:37 MAIL Modem reports: atz
+& 02 Nov 17:08:37 MAIL Modem reports: OK
+% 02 Nov 17:08:42 MAIL Setting: 'valid'=''
+. 02 Nov 17:08:44 MAIL Sending to modem: ato
+& 02 Nov 17:08:44 MAIL Modem reports: ato
+% 02 Nov 17:08:44 MAIL Ato
+& 02 Nov 17:08:44 MAIL Modem reports: ERROR
+% 02 Nov 17:08:44 MAIL Error
+% 02 Nov 17:08:47 MAIL KittenMail WIN32.0.10.3u3 --> exiting
+% 02 Nov 17:08:47 MAIL (errorlevel 0 -- exit has been requested from keyboard)

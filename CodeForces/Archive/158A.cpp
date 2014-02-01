@@ -5,8 +5,10 @@ int a[1001];
 int c;
 int main()
 {
+	#ifndef ONLINE_JUDGE
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
+	#endif
 	cin>>n>>k;
 	for(int i=0;i<n;i++)
 	{

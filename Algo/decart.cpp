@@ -1,39 +1,195 @@
+/*
+	__________________
+    Вставка элемента.
+    __________________ 
+Пусть нам надо вставить элемент в позицию pos. Разобьём декартово дерево на две 
+половинки: соответствующую массиву [0..pos-1] и массиву [pos..sz]; для этого достаточно 
+вызвать split (t, t1, t2, pos). После этого мы можем объединить дерево t1 с новой вершиной; для 
+этого достаточно вызвать merge (t1, t1, new_item) (нетрудно убедиться в том, что все 
+предусловия для merge выполнены). Наконец, объединим два дерева t1 и t2 обратно в дерево t 
+- вызовом merge (t, t1, t2).
+	_________________
+    Удаление элемента.
+    _________________ 
+Здесь всё ещё проще: достаточно найти удаляемый элемент, а затем выполнить merge для 
+его сыновей l и r, и поставить результат объединения на место вершины t. Фактически, удаление 
+из неявного декартова дерева не отличается от удаления из обычного декартова дерева.
+
+	________________________________
+	Сумма/минимум и т.п. на отрезке.
+	________________________________ 
+Во-первых, для каждой вершины создадим дополнительное поле f в структуре item, в котором 
+будет храниться значение целевой функции для поддерева этой вершины. Такое поле 
+легко поддерживать, для этого надо поступить аналогично поддержке размеров cnt 
+(создать функцию, вычисляющую значение этого поля, пользуясь его значениями для сыновей, 
+и вставить вызовы этой функции в конце всех функций, меняющих дерево). 
+Во-вторых, нам надо научиться отвечать на запрос на произвольном отрезке [A;B]. 
+Научимся выделять из дерева его часть, соответствующую отрезку [A;B]. Нетрудно понять, что 
+для этого достаточно сначала вызвать split (t, t1, t2, A), а затем split (t2, t2, t3, B-A+1). В 
+результате дерево t2 и будет состоять из всех элементов в отрезке [A;B], и только 
+них. Следовательно, ответ на запрос будет находиться в поле f вершины t2. После ответа на 
+запрос дерево надо восстановить вызовами merge (t, t1, t2) и merge (t, t, t3).
+    _______________________________
+    Прибавление/покраска на отрезке.
+    _______________________________ 
+Здесь мы поступаем аналогично предыдущему пункту, но вместо поля f будем хранить поле 
+add, которое и будет содержать прибавляемую величину (или величину, в которую красят 
+всё поддерево этой вершины). Перед выполнением любой операции эту величину add 
+надо "протолкнуть" - т.е. соответствующим образом изменить t-l->add и t->r->add, а у себя 
+значение add снять. Тем самым мы добьёмся того, что ни при каких изменениях дерева 
+информация не будет потеряна.
+	____________________
+    Переворот на отрезке.
+    ____________________
+Этот пункт почти аналогичен предыдущему - нужно ввести поле bool rev, которое ставить в 
+true, когда требуется произвести переворот в поддереве текущей вершины. "Проталкивание" 
+поля rev заключается в том, что мы обмениваем местами сыновья текущей вершины, и ставим 
+этот флаг для них.
+
+
+*/
 #include <iostream>
 using namespace std;
 struct Treap
 {
-	 int x;//Key
-	 int y;//Priority
-	 Treap * Left;
-	 Treap * Right;	 
-	 Treap() { }
-     Treap(int x, int y) : x(x), y(y), Left(NULL), Right(NULL) { }
-};
-Treap Merge(Treap l,Treap r)
-{   	
-	if(!&l) return r;
-	if(!&r) return l;
-	if(l.y > r.y )
-	{  
-		Treap newR =  Merge(l.Right, r);
-		return Treap(l.x,l.y,l.Left,newR);
-	} 
+	                                               
+	int y,cnt,val,f, f1;
+	bool rev;
+	Treap * l, * r;
+	Treap()
+	{
+		f1  = 0;
+		f   = 0;
+		y   = 0;
+		rev = 0;
+		r   = l = NULL;
+		val = 0;
+	}
+};             
+int cnt(Treap * it)
+{
+	return it ? it->cnt : 0;
+}
+int maxCost(Treap * it)
+{
+	if(it) return it->f;
+	else return -100000;
+}
+int minCost(Treap * it)
+{
+	if(it) return it->f1;
+	else return 100000;
+}
+void upd_cnt(Treap * it)
+{
+	if(it)
+	{
+		 it->cnt = cnt(it->l)+cnt(it->r)+1;
+		 it->f   = max(it->f,max(maxCost(it->l),maxCost(it->r))); 
+		 it->f1  = min(it->f1, min(minCost(it->l), minCost(it->r)));    
+	}
+}
+void push(Treap * it)
+{
+	 if(it && it->rev)
+	 {
+	 	it->rev = false;
+	 	swap(it->l,it->r);
+	 	if (it->l) it->l->rev ^= true;
+ 		if (it->r) it->r->rev ^= true; 
+	 }
+}
+void Merge (Treap * & t, Treap * l, Treap * r) 
+{
+ 	push (l);
+ 	push (r);
+ 	if (!l || !r)
+ 		t = l ? l : r;
+ 	else if (l->y > r->y)
+ 		Merge (l->r, l->r, r), t = l;
+ 	else
+ 		Merge (r->l, l, r->l), t = r;
+ 	upd_cnt (t);
+}
+void split(Treap * t, Treap * & l, Treap * & r, int key, int add = 0)
+{
+	if(!t)
+	{
+		return void(l=r=0);
+	}
+	push(t);
+	int cur_key = add+cnt(t->l);
+	if(key<=cur_key)
+	{
+		split(t->l, l, 	t->l, key, add), r = t;
+	}
 	else
 	{
-		Treap newL = Merge(&l,& r.Left);
-		return Treap(&r.x,&r.y,&newL,&r.Right);	
+		split(t->r, t->r, r, key, add+1+cnt(t->l)), l = t;
 	}
+	upd_cnt(t);
+}
+void output (Treap * t) {
+ 	if (!t) return;
+ 	push (t);
+ 	output(t->l);
+ 	cerr<<t->val<<"-"<<t->y<<"\n";
+ 	output (t->r);
+}
+int Max(Treap *& t,int l,int r)
+{
+	Treap *t1=new Treap(),*t2=new Treap(),*t3=new Treap();
+	split(t,t1,t2,l);
+	split(t2,t2,t3,r-l+1);
+    
+    int res = t2->f;
+    
+    Merge(t,t1,t2);
+    Merge(t,t,t3);
+    return res;
+}
+int Min(Treap *& t,int l,int r)
+{
+	Treap *t1=new Treap(),*t2=new Treap(),*t3=new Treap();
+	split(t,t1,t2,l);
+	split(t2,t2,t3,r-l+1);
+    
+    int res = t2->f1;
+    
+    Merge(t,t1,t2);
+    Merge(t,t,t3);
+    return res;
 }
 int main()
 {
-	freopen("input.txt","r",stdin);
-	freopen("output.txt","w",stdout);
-	Treap a, b,c;
-	a.x = 10;
-	a.y = 12;
-	b.x = 23;
-	b.y = 13;
-    c = Merge(a,b);
-    cout<<c.x<<" "<<c.Left.x<<" "<<c.Right.x;         
-    return 0;
+	//freopen("input.txt","r",stdin);
+	//freopen("output.txt","w",stdout);
+	Treap * root=new Treap();
+	root->f1 = 10000;
+	int n,x;
+	cin>>n;
+	for(int i=1;i<=n;i++)
+	{   
+		cin>>x;
+		Treap * v = new Treap();
+		v->val = x;
+		v->y   = rand();
+		v->f   = x;
+		v->f1  = x;
+		Merge(root, root, v);
+		//cout<<v->val<<endl;
+	}
+	cout<<Min(root,4,5);
+	/*
+		 Нетрудно понять, что 
+для этого достаточно сначала вызвать split (t, t1, t2, A), а затем split (t2, t2, t3, B-A+1). В 
+результате дерево t2 и будет состоять из всех элементов в отрезке [A;B], и только 
+них. Следовательно, ответ на запрос будет находиться в поле f вершины t2. После ответа на 
+запрос дерево надо восстановить вызовами merge (t, t1, t2) и merge (t, t, t3).
+
+
+	l = 3, r = 5;
+	*/
+	//output(root);
+	return 0;
 }

@@ -1,0 +1,1030 @@
+3
+executed
+11:12
+Turbo Pascal  Version 7.0
+08.09.2002 11:03:10 testsys 0.01alpha3 started.
+08.09.2002 11:04:29 testsys 0.01alpha3 started.
+08.09.2002 11:04:29 fatal: Busy flag detected: "o:\testsys\testsys.bsy"
+08.09.2002 11:04:33 testsys 0.01alpha3 started.
+08.09.2002 11:04:34 a judge (#1) connected at channel #4
+08.09.2002 11:04:34 judge #1 at channel 4 logged in, name=LocalJudge 2000
+08.09.2002 11:05:52 testsys 0.01alpha3 started.
+08.09.2002 11:05:52 fatal: Busy flag detected: "o:\testsys\testsys.bsy"
+08.09.2002 11:06:03 testsys 0.01alpha3 started.
+08.09.2002 11:06:03 fatal: Busy flag detected: "o:\testsys\testsys.bsy"
+08.09.2002 11:07:04 testsys 0.01alpha3 started.
+08.09.2002 11:07:04 fatal: Busy flag detected: "o:\testsys\testsys.bsy"
+08.09.2002 11:07:16 testsys 0.01alpha3 started.
+08.09.2002 11:07:18 a judge (#1) connected at channel #4
+08.09.2002 11:07:18 judge #1 at channel 4 logged in, name=LocalJudge 2000
+08.09.2002 11:07:21 a console (#1) connected at channel #5
+08.09.2002 11:07:21 console #1 logged in
+08.09.2002 11:07:22 Loading contest definitions...
+08.09.2002 11:07:22 CONTEST#1: STATE=NOT_STARTED START=0:00:00 LEN=300 PASSED=-1 TEAMS=17 PROB=7
+08.09.2002 11:07:22 CONTEST#2: STATE=NOT_STARTED START=0:00:00 LEN=300 PASSED=-1 TEAMS=7 PROB=7
+08.09.2002 11:07:28 got from console #1: Msg="select_contest #1", ID=""
+08.09.2002 11:07:31 got from console #1: Msg="start_at 11:08", ID=""
+08.09.2002 11:07:31 contest #1: will start at 08.09.2002 11:08:00
+08.09.2002 11:07:35 got from console #1: Msg="select_contest #2", ID=""
+08.09.2002 11:07:38 got from console #1: Msg="start_at 11:08", ID=""
+08.09.2002 11:07:38 contest #2: will start at 08.09.2002 11:08:00
+08.09.2002 11:07:42 Saving state of contest 080902
+08.09.2002 11:07:42 Saving state of contest 080902_2
+08.09.2002 11:07:46 got from console #1: Msg="start_at 11:09", ID=""
+08.09.2002 11:07:46 contest #2: will start at 08.09.2002 11:09:00
+08.09.2002 11:07:49 got from console #1: Msg="select_contest #1", ID=""
+08.09.2002 11:07:51 got from console #1: Msg="start_at 11:09", ID=""
+08.09.2002 11:07:51 contest #1: will start at 08.09.2002 11:09:00
+08.09.2002 11:07:53 got from console #1: Msg="next_state", ID=""
+08.09.2002 11:07:53 Switching to next state for contest #1 requested from console 1
+08.09.2002 11:07:53 Saving state of contest 080902
+08.09.2002 11:07:53 Preparing contest 080902...
+08.09.2002 11:07:53 contest 080902, problem A: 15 tests found
+08.09.2002 11:07:54 contest 080902, problem B: 21 tests found
+08.09.2002 11:07:54 contest 080902, problem C: 53 tests found
+08.09.2002 11:07:54 contest 080902, problem D: 18 tests found
+08.09.2002 11:07:54 contest 080902, problem E: 24 tests found
+08.09.2002 11:07:54 contest 080902, problem F: 19 tests found
+08.09.2002 11:07:54 contest 080902, problem G: 25 tests found
+08.09.2002 11:08:03 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-01 
+A subdirectory or file o:\O-01 already exists.
+
+O:\testsys>RIGHTS o:\O-01 RWCEMF /name=O-01 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-01                                                         [ RWCEMF ]
+
+
+The rights did not change for O-01
+
+
+O:\testsys>RIGHTS q:\ctdir\01.dat RF /name=O-01 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+01.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-01
+
+
+
+08.09.2002 11:08:05 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-02 
+A subdirectory or file o:\O-02 already exists.
+
+O:\testsys>RIGHTS o:\O-02 RWCEMF /name=O-02 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-02                                                         [ RWCEMF ]
+
+
+The rights did not change for O-02
+
+
+O:\testsys>RIGHTS q:\ctdir\02.dat RF /name=O-02 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+02.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-02
+
+
+
+08.09.2002 11:08:06 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-03 
+A subdirectory or file o:\O-03 already exists.
+
+O:\testsys>RIGHTS o:\O-03 RWCEMF /name=O-03 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-03                                                         [ RWCEMF ]
+
+
+The rights did not change for O-03
+
+
+O:\testsys>RIGHTS q:\ctdir\03.dat RF /name=O-03 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+03.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-03
+
+
+
+08.09.2002 11:08:07 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-04 
+A subdirectory or file o:\O-04 already exists.
+
+O:\testsys>RIGHTS o:\O-04 RWCEMF /name=O-04 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-04                                                         [ RWCEMF ]
+
+
+The rights did not change for O-04
+
+
+O:\testsys>RIGHTS q:\ctdir\04.dat RF /name=O-04 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+04.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-04
+
+
+
+08.09.2002 11:08:08 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-05 
+A subdirectory or file o:\O-05 already exists.
+
+O:\testsys>RIGHTS o:\O-05 RWCEMF /name=O-05 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-05                                                         [ RWCEMF ]
+
+
+The rights did not change for O-05
+
+
+O:\testsys>RIGHTS q:\ctdir\05.dat RF /name=O-05 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+05.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-05
+
+
+
+08.09.2002 11:08:10 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-06 
+A subdirectory or file o:\O-06 already exists.
+
+O:\testsys>RIGHTS o:\O-06 RWCEMF /name=O-06 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-06                                                         [ RWCEMF ]
+
+
+The rights did not change for O-06
+
+
+O:\testsys>RIGHTS q:\ctdir\06.dat RF /name=O-06 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+06.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-06
+
+
+
+08.09.2002 11:08:11 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-07 
+A subdirectory or file o:\O-07 already exists.
+
+O:\testsys>RIGHTS o:\O-07 RWCEMF /name=O-07 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-07                                                         [ RWCEMF ]
+
+
+The rights did not change for O-07
+
+
+O:\testsys>RIGHTS q:\ctdir\07.dat RF /name=O-07 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+07.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-07
+
+
+
+08.09.2002 11:08:12 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-08 
+A subdirectory or file o:\O-08 already exists.
+
+O:\testsys>RIGHTS o:\O-08 RWCEMF /name=O-08 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-08                                                         [ RWCEMF ]
+
+
+The rights did not change for O-08
+
+
+O:\testsys>RIGHTS q:\ctdir\08.dat RF /name=O-08 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+08.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-08
+
+
+
+08.09.2002 11:08:15 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-09 
+A subdirectory or file o:\O-09 already exists.
+
+O:\testsys>RIGHTS o:\O-09 RWCEMF /name=O-09 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-09                                                         [ RWCEMF ]
+
+
+The rights did not change for O-09
+
+
+O:\testsys>RIGHTS q:\ctdir\09.dat RF /name=O-09 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+09.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-09
+
+
+
+08.09.2002 11:08:16 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-10 
+A subdirectory or file o:\O-10 already exists.
+
+O:\testsys>RIGHTS o:\O-10 RWCEMF /name=O-10 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-10                                                         [ RWCEMF ]
+
+
+The rights did not change for O-10
+
+
+O:\testsys>RIGHTS q:\ctdir\10.dat RF /name=O-10 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+10.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-10
+
+
+
+08.09.2002 11:08:18 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-11 
+A subdirectory or file o:\O-11 already exists.
+
+O:\testsys>RIGHTS o:\O-11 RWCEMF /name=O-11 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-11                                                         [ RWCEMF ]
+
+
+The rights did not change for O-11
+
+
+O:\testsys>RIGHTS q:\ctdir\11.dat RF /name=O-11 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+11.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-11
+
+
+
+08.09.2002 11:08:19 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-12 
+A subdirectory or file o:\O-12 already exists.
+
+O:\testsys>RIGHTS o:\O-12 RWCEMF /name=O-12 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-12                                                         [ RWCEMF ]
+
+
+The rights did not change for O-12
+
+
+O:\testsys>RIGHTS q:\ctdir\12.dat RF /name=O-12 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+12.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-12
+
+
+
+08.09.2002 11:08:20 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-13 
+A subdirectory or file o:\O-13 already exists.
+
+O:\testsys>RIGHTS o:\O-13 RWCEMF /name=O-13 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-13                                                         [ RWCEMF ]
+
+
+The rights did not change for O-13
+
+
+O:\testsys>RIGHTS q:\ctdir\13.dat RF /name=O-13 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+13.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-13
+
+
+
+08.09.2002 11:08:21 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-14 
+A subdirectory or file o:\O-14 already exists.
+
+O:\testsys>RIGHTS o:\O-14 RWCEMF /name=O-14 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-14                                                         [ RWCEMF ]
+
+
+The rights did not change for O-14
+
+
+O:\testsys>RIGHTS q:\ctdir\14.dat RF /name=O-14 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+14.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-14
+
+
+
+08.09.2002 11:08:23 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-15 
+A subdirectory or file o:\O-15 already exists.
+
+O:\testsys>RIGHTS o:\O-15 RWCEMF /name=O-15 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-15                                                         [ RWCEMF ]
+
+
+The rights did not change for O-15
+
+
+O:\testsys>RIGHTS q:\ctdir\15.dat RF /name=O-15 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+15.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-15
+
+
+
+08.09.2002 11:08:24 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-16 
+A subdirectory or file o:\O-16 already exists.
+
+O:\testsys>RIGHTS o:\O-16 RWCEMF /name=O-16 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-16                                                         [ RWCEMF ]
+
+
+The rights did not change for O-16
+
+
+O:\testsys>RIGHTS q:\ctdir\16.dat RF /name=O-16 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+16.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-16
+
+
+
+08.09.2002 11:08:25 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-17 
+A subdirectory or file o:\O-17 already exists.
+
+O:\testsys>RIGHTS o:\O-17 RWCEMF /name=O-17 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-17                                                         [ RWCEMF ]
+
+
+The rights did not change for O-17
+
+
+O:\testsys>RIGHTS q:\ctdir\17.dat RF /name=O-17 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+17.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-17
+
+
+
+08.09.2002 11:08:26 Contest 080902 ready to start
+08.09.2002 11:08:26 Saving state of contest 080902
+08.09.2002 11:08:26 Saving state of contest 080902_2
+08.09.2002 11:08:34 got from console #1: Msg="select_contest #2", ID=""
+08.09.2002 11:08:36 got from console #1: Msg="next_state", ID=""
+08.09.2002 11:08:36 Switching to next state for contest #2 requested from console 1
+08.09.2002 11:08:36 Preparing contest 080902_2...
+08.09.2002 11:08:36 contest 080902_2, problem A: 15 tests found
+08.09.2002 11:08:36 contest 080902_2, problem B: 21 tests found
+08.09.2002 11:08:36 contest 080902_2, problem C: 53 tests found
+08.09.2002 11:08:37 contest 080902_2, problem D: 28 tests found
+08.09.2002 11:08:37 contest 080902_2, problem E: 24 tests found
+08.09.2002 11:08:37 contest 080902_2, problem F: 19 tests found
+08.09.2002 11:08:37 contest 080902_2, problem G: 25 tests found
+08.09.2002 11:08:38 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-21 
+A subdirectory or file o:\O-21 already exists.
+
+O:\testsys>RIGHTS o:\O-21 RWCEMF /name=O-21 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-21                                                         [ RWCEMF ]
+
+
+The rights did not change for O-21
+
+
+O:\testsys>RIGHTS q:\ctdir\21.dat RF /name=O-21 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+21.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-21
+
+
+
+08.09.2002 11:08:39 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-22 
+A subdirectory or file o:\O-22 already exists.
+
+O:\testsys>RIGHTS o:\O-22 RWCEMF /name=O-22 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-22                                                         [ RWCEMF ]
+
+
+The rights did not change for O-22
+
+
+O:\testsys>RIGHTS q:\ctdir\22.dat RF /name=O-22 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+22.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-22
+
+
+
+08.09.2002 11:08:43 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-23 
+A subdirectory or file o:\O-23 already exists.
+
+O:\testsys>RIGHTS o:\O-23 RWCEMF /name=O-23 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-23                                                         [ RWCEMF ]
+
+
+The rights did not change for O-23
+
+
+O:\testsys>RIGHTS q:\ctdir\23.dat RF /name=O-23 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+23.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-23
+
+
+
+08.09.2002 11:08:44 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-24 
+A subdirectory or file o:\O-24 already exists.
+
+O:\testsys>RIGHTS o:\O-24 RWCEMF /name=O-24 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-24                                                         [ RWCEMF ]
+
+
+The rights did not change for O-24
+
+
+O:\testsys>RIGHTS q:\ctdir\24.dat RF /name=O-24 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+24.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-24
+
+
+
+08.09.2002 11:08:45 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-25 
+A subdirectory or file o:\O-25 already exists.
+
+O:\testsys>RIGHTS o:\O-25 RWCEMF /name=O-25 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-25                                                         [ RWCEMF ]
+
+
+The rights did not change for O-25
+
+
+O:\testsys>RIGHTS q:\ctdir\25.dat RF /name=O-25 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+25.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-25
+
+
+
+08.09.2002 11:08:47 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-26 
+A subdirectory or file o:\O-26 already exists.
+
+O:\testsys>RIGHTS o:\O-26 RWCEMF /name=O-26 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-26                                                         [ RWCEMF ]
+
+
+The rights did not change for O-26
+
+
+O:\testsys>RIGHTS q:\ctdir\26.dat RF /name=O-26 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+26.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-26
+
+
+
+08.09.2002 11:08:48 executed "tmp.bat", result=0, output:
+
+O:\testsys>MD o:\O-27 
+A subdirectory or file o:\O-27 already exists.
+
+O:\testsys>RIGHTS o:\O-27 RWCEMF /name=O-27 
+
+FS2\WORK1:\HOME\OLYMP
+Directories                                                  Rights
+------------------------------------------------------------ -----------------
+O-27                                                         [ RWCEMF ]
+
+
+The rights did not change for O-27
+
+
+O:\testsys>RIGHTS q:\ctdir\27.dat RF /name=O-27 
+
+FS2\WORK1:\HOME\OLYMP\COMMON\CTDIR
+Files                                                        Rights
+------------------------------------------------------------ ------------------
+27.DAT                                                       [ R    F ]
+
+
+Rights for one file were changed for O-27
+
+
+
+08.09.2002 11:08:48 Contest 080902_2 ready to start
+08.09.2002 11:08:48 Saving state of contest 080902_2
+08.09.2002 11:09:00 Automatically starting contest #1 (080902) (should start at 08.09.2002 11:09:00)
+08.09.2002 11:09:00 Contest 080902 started at 08.09.2002 11:09:00
+08.09.2002 11:09:00 Saving state of contest 080902
+08.09.2002 11:09:00 Automatically starting contest #2 (080902_2) (should start at 08.09.2002 11:09:00)
+08.09.2002 11:09:00 Contest 080902_2 started at 08.09.2002 11:09:00
+08.09.2002 11:09:00 Saving state of contest 080902_2
+08.09.2002 11:09:40 a message program (#1) connected at channel #6
+08.09.2002 11:09:40 message program #1 logged in as 13
+08.09.2002 11:10:34 submit (#1) connected at channel #7
+08.09.2002 11:10:34 submit #1: incoming submission from 13, problem E
+08.09.2002 11:10:34 submission stored as o:\testsys\080902\080902\submits\11_10_34_13_E_1849.PAS
+08.09.2002 11:10:34 job (0,-1) forwarded to judge #1 (ID=949092042_0_-1)
+08.09.2002 11:10:34 Saving state of contest 080902
+08.09.2002 11:10:34 submission acknowledged
+08.09.2002 11:10:34 submit #1 disconnected from channel #7
+08.09.2002 11:10:34 judge #1: response for (0, -1): CE 
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+A.PAS(3): Error 15: File not found (TESTJURY.TPU).
+uses testjury;
+             ^
+08.09.2002 11:10:34 Saving state of contest 080902
+08.09.2002 11:10:34 sent message "E(1): Compilation Error" (id=1_0_688992443660067748) to 13, channel 1
+08.09.2002 11:10:35 channel #1: message id 1_0_688992443660067748 for 13 acknowledged
+08.09.2002 11:10:41 submit (#1) connected at channel #7
+08.09.2002 11:10:41 submit #1: incoming submission from 13, problem E
+08.09.2002 11:10:41 submission stored as o:\testsys\080902\080902\submits\11_10_41_13_E_5034.PAS
+08.09.2002 11:10:41 job (1,-1) forwarded to judge #1 (ID=60889959_1_-1)
+08.09.2002 11:10:41 Saving state of contest 080902
+08.09.2002 11:10:41 submission acknowledged
+08.09.2002 11:10:41 submit #1 disconnected from channel #7
+08.09.2002 11:10:41 judge #1: response for (1, -1): CE 
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+A.PAS(3): Error 15: File not found (TESTJURY.TPU).
+uses testjury;
+             ^
+08.09.2002 11:10:41 Saving state of contest 080902
+08.09.2002 11:10:41 sent message "E(2): Compilation Error" (id=1_1_804335595818356044) to 13, channel 1
+08.09.2002 11:10:42 channel #1: message id 1_1_804335595818356044 for 13 acknowledged
+08.09.2002 11:10:47 submit (#1) connected at channel #7
+08.09.2002 11:10:47 submit #1: incoming submission from 13, problem B
+08.09.2002 11:10:47 submission stored as o:\testsys\080902\080902\submits\11_10_47_13_B_2017.PAS
+08.09.2002 11:10:47 job (2,-1) forwarded to judge #1 (ID=82075539_2_-1)
+08.09.2002 11:10:47 Saving state of contest 080902
+08.09.2002 11:10:47 submission acknowledged
+08.09.2002 11:10:47 submit #1 disconnected from channel #7
+08.09.2002 11:10:47 judge #1: response for (2, -1): CE 
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+A.PAS(3): Error 15: File not found (TESTJURY.TPU).
+uses testjury;
+             ^
+08.09.2002 11:10:47 Saving state of contest 080902
+08.09.2002 11:10:47 sent message "B(1): Compilation Error" (id=1_2_533587888459169166) to 13, channel 1
+08.09.2002 11:10:48 channel #1: message id 1_2_533587888459169166 for 13 acknowledged
+08.09.2002 11:10:48 Saving state of contest 080902
+08.09.2002 11:10:56 submit (#1) connected at channel #7
+08.09.2002 11:10:56 submit #1: incoming submission from 13, problem B
+08.09.2002 11:10:56 submission stored as o:\testsys\080902\080902\submits\11_10_56_13_B_7682.PAS
+08.09.2002 11:10:56 job (3,-1) forwarded to judge #1 (ID=674713095_3_-1)
+08.09.2002 11:10:56 Saving state of contest 080902
+08.09.2002 11:10:56 submission acknowledged
+08.09.2002 11:10:56 submit #1 disconnected from channel #7
+08.09.2002 11:10:56 judge #1: response for (3, -1): OK 
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+A.PAS(58)
+58 lines, 3744 bytes code, 690 bytes data.
+
+08.09.2002 11:10:56 job (3,1) forwarded to judge #1 (ID=39365812_3_1)
+08.09.2002 11:10:58 judge #1: response for (3, 1): OK 
+* ok * 
+
+08.09.2002 11:10:58 job (3,2) forwarded to judge #1 (ID=407064182_3_2)
+08.09.2002 11:10:59 judge #1: response for (3, 2): OK 
+* ok * 
+
+08.09.2002 11:10:59 job (3,3) forwarded to judge #1 (ID=133013163_3_3)
+08.09.2002 11:11:01 judge #1: response for (3, 3): OK 
+* ok * 
+
+08.09.2002 11:11:01 job (3,4) forwarded to judge #1 (ID=276459747_3_4)
+08.09.2002 11:11:02 judge #1: response for (3, 4): OK 
+* ok * 
+
+08.09.2002 11:11:02 job (3,5) forwarded to judge #1 (ID=194281129_3_5)
+08.09.2002 11:11:04 judge #1: response for (3, 5): OK 
+* ok * 
+
+08.09.2002 11:11:04 job (3,6) forwarded to judge #1 (ID=196730755_3_6)
+08.09.2002 11:11:05 submit (#1) connected at channel #7
+08.09.2002 11:11:05 submit #1: incoming submission from 13, problem G
+08.09.2002 11:11:05 submission stored as o:\testsys\080902\080902\submits\11_11_05_13_G_5776.PAS
+08.09.2002 11:11:05 Saving state of contest 080902
+08.09.2002 11:11:05 submission acknowledged
+08.09.2002 11:11:05 submit #1 disconnected from channel #7
+08.09.2002 11:11:06 judge #1: response for (3, 6): OK 
+* ok * 
+
+08.09.2002 11:11:06 job (3,7) forwarded to judge #1 (ID=86100083_3_7)
+08.09.2002 11:11:08 judge #1: response for (3, 7): OK 
+* ok * 
+
+08.09.2002 11:11:08 job (3,8) forwarded to judge #1 (ID=696114209_3_8)
+08.09.2002 11:11:09 judge #1: response for (3, 8): OK 
+* ok * 
+
+08.09.2002 11:11:09 job (3,9) forwarded to judge #1 (ID=586357850_3_9)
+08.09.2002 11:11:11 judge #1: response for (3, 9): OK 
+* ok * 
+
+08.09.2002 11:11:11 job (3,10) forwarded to judge #1 (ID=989661785_3_10)
+08.09.2002 11:11:13 judge #1: response for (3, 10): OK 
+* ok * 
+
+08.09.2002 11:11:13 job (3,11) forwarded to judge #1 (ID=772713645_3_11)
+08.09.2002 11:11:14 submit (#1) connected at channel #7
+08.09.2002 11:11:14 submit #1: incoming submission from 13, problem G
+08.09.2002 11:11:14 submission stored as o:\testsys\080902\080902\submits\11_11_14_13_G_8011.PAS
+08.09.2002 11:11:14 Saving state of contest 080902
+08.09.2002 11:11:14 submission acknowledged
+08.09.2002 11:11:14 submit #1 disconnected from channel #7
+08.09.2002 11:11:15 judge #1: response for (3, 11): OK 
+* ok * 
+
+08.09.2002 11:11:15 job (3,12) forwarded to judge #1 (ID=161820738_3_12)
+08.09.2002 11:11:16 judge #1: response for (3, 12): OK 
+* ok * 
+
+08.09.2002 11:11:16 job (3,13) forwarded to judge #1 (ID=570508444_3_13)
+08.09.2002 11:11:18 judge #1: response for (3, 13): OK 
+* ok * 
+
+08.09.2002 11:11:18 job (3,14) forwarded to judge #1 (ID=455350222_3_14)
+08.09.2002 11:11:20 judge #1: response for (3, 14): OK 
+* ok * 
+
+08.09.2002 11:11:20 job (3,15) forwarded to judge #1 (ID=410061668_3_15)
+08.09.2002 11:11:22 judge #1: response for (3, 15): OK 
+* ok * 
+
+08.09.2002 11:11:22 job (3,16) forwarded to judge #1 (ID=703563326_3_16)
+08.09.2002 11:11:23 submit (#1) connected at channel #7
+08.09.2002 11:11:23 submit #1: incoming submission from 13, problem F
+08.09.2002 11:11:23 submission stored as o:\testsys\080902\080902\submits\11_11_23_13_F_3579.PAS
+08.09.2002 11:11:23 Saving state of contest 080902
+08.09.2002 11:11:23 submission acknowledged
+08.09.2002 11:11:23 submit #1 disconnected from channel #7
+08.09.2002 11:11:24 judge #1: response for (3, 16): OK 
+* ok * 
+
+08.09.2002 11:11:24 job (3,17) forwarded to judge #1 (ID=750087951_3_17)
+08.09.2002 11:11:26 judge #1: response for (3, 17): OK 
+* ok * 
+
+08.09.2002 11:11:26 job (3,18) forwarded to judge #1 (ID=490686769_3_18)
+08.09.2002 11:11:29 judge #1: response for (3, 18): OK 
+* ok * 
+
+08.09.2002 11:11:29 job (3,19) forwarded to judge #1 (ID=238050793_3_19)
+08.09.2002 11:11:29 submit (#1) connected at channel #7
+08.09.2002 11:11:29 submit #1: incoming submission from 13, problem F
+08.09.2002 11:11:30 submission stored as o:\testsys\080902\080902\submits\11_11_29_13_F_1705.PAS
+08.09.2002 11:11:30 Saving state of contest 080902
+08.09.2002 11:11:30 submission acknowledged
+08.09.2002 11:11:30 submit #1 disconnected from channel #7
+08.09.2002 11:11:31 judge #1: response for (3, 19): OK 
+* ok * 
+
+08.09.2002 11:11:31 job (3,20) forwarded to judge #1 (ID=931349240_3_20)
+08.09.2002 11:11:33 judge #1: response for (3, 20): OK 
+* ok * 
+
+08.09.2002 11:11:33 job (3,21) forwarded to judge #1 (ID=72121196_3_21)
+08.09.2002 11:11:34 judge #1: response for (3, 21): OK 
+* ok * 
+
+08.09.2002 11:11:34 Saving state of contest 080902
+08.09.2002 11:11:34 sent message "B(2): Accepted" (id=1_3_945667534834927706) to 13, channel 1
+08.09.2002 11:11:34 job (4,-1) forwarded to judge #1 (ID=504349495_4_-1)
+08.09.2002 11:11:35 judge #1: response for (4, -1): OK 
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+A.PAS(88)
+88 lines, 4736 bytes code, 20692 bytes data.
+
+08.09.2002 11:11:35 job (4,1) forwarded to judge #1 (ID=294455655_4_1)
+08.09.2002 11:11:36 judge #1: response for (4, 1): OK 
+* ok * 
+
+08.09.2002 11:11:36 job (4,2) forwarded to judge #1 (ID=346935431_4_2)
+08.09.2002 11:11:37 channel #1: message id 1_3_945667534834927706 for 13 acknowledged
+08.09.2002 11:11:38 judge #1: response for (4, 2): OK 
+* ok * 
+
+08.09.2002 11:11:38 job (4,3) forwarded to judge #1 (ID=803893646_4_3)
+08.09.2002 11:11:39 submit (#1) connected at channel #7
+08.09.2002 11:11:39 submit #1: incoming submission from 13, problem F
+08.09.2002 11:11:39 submission stored as o:\testsys\080902\080902\submits\11_11_39_13_F_7355.PAS
+08.09.2002 11:11:39 Saving state of contest 080902
+08.09.2002 11:11:39 submission acknowledged
+08.09.2002 11:11:39 submit #1 disconnected from channel #7
+08.09.2002 11:11:40 judge #1: response for (4, 3): OK 
+* ok * 
+
+08.09.2002 11:11:40 job (4,4) forwarded to judge #1 (ID=248559809_4_4)
+08.09.2002 11:11:41 judge #1: response for (4, 4): OK 
+* ok * 
+
+08.09.2002 11:11:41 job (4,5) forwarded to judge #1 (ID=438927417_4_5)
+08.09.2002 11:11:43 judge #1: response for (4, 5): OK 
+* ok * 
+
+08.09.2002 11:11:43 job (4,6) forwarded to judge #1 (ID=526483085_4_6)
+08.09.2002 11:11:45 judge #1: response for (4, 6): OK 
+* ok * 
+
+08.09.2002 11:11:45 job (4,7) forwarded to judge #1 (ID=938015596_4_7)
+08.09.2002 11:11:46 judge #1: response for (4, 7): OK 
+* ok * 
+
+08.09.2002 11:11:46 job (4,8) forwarded to judge #1 (ID=590279063_4_8)
+08.09.2002 11:11:47 submit (#1) connected at channel #7
+08.09.2002 11:11:47 submit #1: incoming submission from 13, problem A
+08.09.2002 11:11:47 submission stored as o:\testsys\080902\080902\submits\11_11_47_13_A_7037.PAS
+08.09.2002 11:11:47 Saving state of contest 080902
+08.09.2002 11:11:47 submission acknowledged
+08.09.2002 11:11:47 submit #1 disconnected from channel #7
+08.09.2002 11:11:48 judge #1: response for (4, 8): OK 
+* ok * 
+
+08.09.2002 11:11:48 job (4,9) forwarded to judge #1 (ID=177639711_4_9)
+08.09.2002 11:11:50 judge #1: response for (4, 9): OK 
+* ok * 
+
+08.09.2002 11:11:50 job (4,10) forwarded to judge #1 (ID=558475200_4_10)
+08.09.2002 11:11:51 judge #1: response for (4, 10): OK 
+* ok * 
+
+08.09.2002 11:11:51 job (4,11) forwarded to judge #1 (ID=163420399_4_11)
+08.09.2002 11:11:53 submit (#1) connected at channel #7
+08.09.2002 11:11:53 submit #1: incoming submission from 13, problem A
+08.09.2002 11:11:53 submission stored as o:\testsys\080902\080902\submits\11_11_53_13_A_1609.PAS
+08.09.2002 11:11:53 Saving state of contest 080902
+08.09.2002 11:11:53 submission acknowledged
+08.09.2002 11:11:53 submit #1 disconnected from channel #7
+08.09.2002 11:11:53 judge #1: response for (4, 11): OK 
+* ok * 
+
+08.09.2002 11:11:53 job (4,12) forwarded to judge #1 (ID=607909168_4_12)
+08.09.2002 11:11:56 judge #1: response for (4, 12): OK 
+* ok * 
+
+08.09.2002 11:11:56 job (4,13) forwarded to judge #1 (ID=363088435_4_13)
+08.09.2002 11:11:59 judge #1: response for (4, 13): OK 
+* ok * 
+
+08.09.2002 11:11:59 job (4,14) forwarded to judge #1 (ID=115902279_4_14)
+08.09.2002 11:12:01 judge #1: response for (4, 14): TL 
+
+08.09.2002 11:12:01 Saving state of contest 080902
+08.09.2002 11:12:01 sent message "G(1): Time Limit, TestN=14" (id=1_4_885896912622186617) to 13, channel 1
+08.09.2002 11:12:01 job (5,-1) forwarded to judge #1 (ID=268665099_5_-1)
+08.09.2002 11:12:02 judge #1: response for (5, -1): OK 
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+A.PAS(65)
+65 lines, 5456 bytes code, 22720 bytes data.
+
+08.09.2002 11:12:02 job (5,1) forwarded to judge #1 (ID=243443611_5_1)
+08.09.2002 11:12:03 judge #1: response for (5, 1): OK 
+* ok * 
+
+08.09.2002 11:12:03 job (5,2) forwarded to judge #1 (ID=665448324_5_2)
+08.09.2002 11:12:05 judge #1: response for (5, 2): OK 
+* ok * 
+
+08.09.2002 11:12:05 job (5,3) forwarded to judge #1 (ID=946940862_5_3)
+08.09.2002 11:12:06 channel #1: message id 1_4_885896912622186617 for 13 acknowledged
+08.09.2002 11:12:07 judge #1: response for (5, 3): OK 
+* ok * 
+
+08.09.2002 11:12:07 job (5,4) forwarded to judge #1 (ID=616289434_5_4)
+08.09.2002 11:12:08 judge #1: response for (5, 4): OK 
+* ok * 
+
+08.09.2002 11:12:08 job (5,5) forwarded to judge #1 (ID=545166777_5_5)
+08.09.2002 11:12:09 Saving state of contest 080902
+08.09.2002 11:12:10 judge #1: response for (5, 5): OK 
+* ok * 
+
+08.09.2002 11:12:10 job (5,6) forwarded to judge #1 (ID=713751313_5_6)
+08.09.2002 11:12:11 submit (#1) connected at channel #7
+08.09.2002 11:12:11 submit #1: incoming submission from 13, problem D
+08.09.2002 11:12:11 submission stored as o:\testsys\080902\080902\submits\11_12_11_13_D_4952.PAS
+08.09.2002 11:12:11 Saving state of contest 080902
+08.09.2002 11:12:11 submission acknowledged
+08.09.2002 11:12:11 submit #1 disconnected from channel #7
+08.09.2002 11:12:12 judge #1: response for (5, 6): OK 

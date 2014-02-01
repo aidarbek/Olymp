@@ -1,0 +1,12 @@
+#!/bin/bash
+java -Xmx256M -Xss64M -cp /var/lib/ejudge/012206/problems/supersub/testlib4j.jar:/var/lib/ejudge/012206/problems/supersub ru.ifmo.testlib.CheckerFramework Check $1 $2 $3
+code=$?
+if [ $code == 0 ] ; then
+	exit 0
+elif [ $code == 1 ] ; then
+	exit 5
+elif [ $code == 2 ] ; then
+	exit 4
+else
+	exit 6
+fi

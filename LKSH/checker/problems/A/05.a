@@ -1,0 +1,55 @@
+08.09.2002 11:08:03 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:05 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:06 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:07 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:08 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:10 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:11 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:12 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:15 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:16 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:18 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:19 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:20 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:21 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:23 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:24 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:25 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:38 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:39 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:43 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:44 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:45 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:47 executed "tmp.bat", result=0, output:
+08.09.2002 11:08:48 executed "tmp.bat", result=0, output:
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+08.09.2002 11:12:01 judge #1: response for (4, 14): TL 
+08.09.2002 11:12:01 Saving state of contest 080902
+08.09.2002 11:12:01 sent message "G(1): Time Limit, TestN=14" (id=1_4_885896912622186617) to 13, channel 1
+08.09.2002 11:12:01 job (5,-1) forwarded to judge #1 (ID=268665099_5_-1)
+08.09.2002 11:12:02 judge #1: response for (5, -1): OK 
+Turbo Pascal  Version 7.0  Copyright (c) 1983,92 Borland International
+08.09.2002 11:12:02 job (5,1) forwarded to judge #1 (ID=243443611_5_1)
+08.09.2002 11:12:03 judge #1: response for (5, 1): OK 
+08.09.2002 11:12:03 job (5,2) forwarded to judge #1 (ID=665448324_5_2)
+08.09.2002 11:12:05 judge #1: response for (5, 2): OK 
+08.09.2002 11:12:05 job (5,3) forwarded to judge #1 (ID=946940862_5_3)
+08.09.2002 11:12:06 channel #1: message id 1_4_885896912622186617 for 13 acknowledged
+08.09.2002 11:12:07 judge #1: response for (5, 3): OK 
+08.09.2002 11:12:07 job (5,4) forwarded to judge #1 (ID=616289434_5_4)
+08.09.2002 11:12:08 judge #1: response for (5, 4): OK 
+08.09.2002 11:12:08 job (5,5) forwarded to judge #1 (ID=545166777_5_5)
+08.09.2002 11:12:09 Saving state of contest 080902
+08.09.2002 11:12:10 judge #1: response for (5, 5): OK 
+08.09.2002 11:12:10 job (5,6) forwarded to judge #1 (ID=713751313_5_6)
+08.09.2002 11:12:11 submit (#1) connected at channel #7
+08.09.2002 11:12:11 submit #1: incoming submission from 13, problem D
+08.09.2002 11:12:11 submission stored as o:\testsys\080902\080902\submits\11_12_11_13_D_4952.PAS
+08.09.2002 11:12:11 Saving state of contest 080902
+08.09.2002 11:12:11 submission acknowledged
+08.09.2002 11:12:11 submit #1 disconnected from channel #7
+08.09.2002 11:12:12 judge #1: response for (5, 6): OK 

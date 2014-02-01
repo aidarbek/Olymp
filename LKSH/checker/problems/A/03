@@ -1,0 +1,24 @@
+3
+Sending to printer
+judge
+job
+29.09.2002 13:05:02 judge #4 aborted his previous job
+29.09.2002 13:05:04 judge #1: response for (2, 1): OK
+* ok * 
+
+29.09.2002 13:05:04 Saving state of contest 290902
+29.09.2002 13:05:04 sent message "E(1): Wrong Answer, TestN=2" to 01, channel 11
+29.09.2002 13:05:04 Sending to printer notification for 01, limit=2/30
+29.09.2002 13:05:08 channel #11: message id 11_2_157069520268121381 for 01 acknowledged
+29.09.2002 13:05:15 monitor (#1) connected at channel #37
+29.09.2002 13:05:15 monitor #1: sending personal monitor data to 01
+29.09.2002 13:05:15 monitor #1 disconnected from channel #37
+29.09.2002 13:05:15 Saving state of contest 290902
+29.09.2002 13:05:35 monitor (#1) connected at channel #37
+29.09.2002 13:05:35 monitor #1: sending personal monitor data to 43
+29.09.2002 13:05:35 monitor #1 disconnected from channel #37
+29.09.2002 13:05:40 got from console #1: Msg="monitor", ID=""
+29.09.2002 13:06:14 print client (#1) connected at channel #37
+29.09.2002 13:06:14 Sending to printer file "e.pas" from 01, 473/31/1, limit=3/30
+29.09.2002 13:06:14 print client #1: sending job confirmation.
+29.09.2002 13:06:14 print client #1 disconnected from channel #37

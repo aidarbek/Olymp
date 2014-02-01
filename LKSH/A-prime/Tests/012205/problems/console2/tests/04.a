@@ -1,0 +1,67 @@
+& 02 Nov 17:07:20 MAIL RDTSC(set comm timeouts): 00000000091523A5
+& 02 Nov 17:07:20 MAIL BSO fastscan time: 0.02
+& 02 Nov 17:07:20 MAIL BSO/Boxes scan time: 0.02
+& 02 Nov 17:07:20 MAIL Outbound rescan time: 0.03
+& 02 Nov 17:07:21 MAIL Modem reports: atz
+& 02 Nov 17:07:21 MAIL Modem reports: OK
+& 02 Nov 17:07:25 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:07:25 MAIL BSO/Boxes scan time: 0.00
+& 02 Nov 17:07:25 MAIL Outbound rescan time: 0.01
+& 02 Nov 17:07:25 MAIL Modem reports: ATDP113-4135
+& 02 Nov 17:07:35 MAIL Modem reports: NO DIALTONE
+& 02 Nov 17:07:38 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:07:38 MAIL BSO/Boxes scan time: 0.00
+& 02 Nov 17:07:38 MAIL Outbound rescan time: 0.01
+& 02 Nov 17:07:38 MAIL Modem reports: ATDP113-4135
+& 02 Nov 17:07:40 MAIL Modem reports: NO CARRIER
+& 02 Nov 17:07:51 MAIL RDTSC(set comm timeouts): 00000000070F0EF9
+& 02 Nov 17:07:51 MAIL nodelist rescan time: 0.00
+& 02 Nov 17:07:51 MAIL BSO fastscan time: 0.02
+& 02 Nov 17:07:51 MAIL BSO/Boxes scan time: 0.02
+& 02 Nov 17:07:51 MAIL Outbound rescan time: 0.05
+& 02 Nov 17:07:52 MAIL Modem reports: atz
+& 02 Nov 17:07:52 MAIL Modem reports: OK
+& 02 Nov 17:07:52 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:07:52 MAIL BSO/Boxes scan time: 0.00
+& 02 Nov 17:07:52 MAIL Outbound rescan time: 0.01
+& 02 Nov 17:07:53 MAIL Modem reports: ATDP113-4135
+& 02 Nov 17:07:55 MAIL Modem reports: NO CARRIER
+& 02 Nov 17:08:00 MAIL RDTSC(set comm timeouts): 0000000005135569
+& 02 Nov 17:08:00 MAIL BSO fastscan time: 0.03
+& 02 Nov 17:08:00 MAIL BSO/Boxes scan time: 0.04
+& 02 Nov 17:08:00 MAIL Outbound rescan time: 0.04
+& 02 Nov 17:08:01 MAIL Modem reports: atz
+& 02 Nov 17:08:01 MAIL Modem reports: OK
+& 02 Nov 17:08:02 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:08:02 MAIL BSO/Boxes scan time: 0.01
+& 02 Nov 17:08:02 MAIL Outbound rescan time: 0.01
+& 02 Nov 17:08:02 MAIL Modem reports: ato113-4135
+& 02 Nov 17:08:02 MAIL Modem reports: ERROR
+& 02 Nov 17:08:22 MAIL RDTSC(set comm timeouts): 00000000083F61B5
+& 02 Nov 17:08:22 MAIL nodelist rescan time: 0.00
+& 02 Nov 17:08:22 MAIL BSO fastscan time: 0.01
+& 02 Nov 17:08:22 MAIL BSO/Boxes scan time: 0.04
+& 02 Nov 17:08:22 MAIL Outbound rescan time: 0.04
+& 02 Nov 17:08:23 MAIL Modem reports: atz
+& 02 Nov 17:08:23 MAIL Modem reports: OK
+& 02 Nov 17:08:23 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:08:23 MAIL BSO/Boxes scan time: 0.00
+& 02 Nov 17:08:23 MAIL Outbound rescan time: 0.01
+& 02 Nov 17:08:24 MAIL Modem reports: atoh1
+& 02 Nov 17:08:24 MAIL Modem reports: ERROR
+& 02 Nov 17:08:28 MAIL RDTSC(set comm timeouts): 0000000005C26DAD
+& 02 Nov 17:08:28 MAIL nodelist rescan time: 0.00
+& 02 Nov 17:08:28 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:08:28 MAIL BSO/Boxes scan time: 0.01
+& 02 Nov 17:08:28 MAIL Outbound rescan time: 0.01
+& 02 Nov 17:08:29 MAIL Modem reports: atz
+& 02 Nov 17:08:29 MAIL Modem reports: OK
+& 02 Nov 17:08:31 MAIL Modem reports: atlm1a
+& 02 Nov 17:08:36 MAIL BSO fastscan time: 0.00
+& 02 Nov 17:08:36 MAIL BSO/Boxes scan time: 0.00
+& 02 Nov 17:08:36 MAIL Outbound rescan time: 0.00
+& 02 Nov 17:08:37 MAIL Modem reports: atz
+& 02 Nov 17:08:37 MAIL Modem reports: OK
+% 02 Nov 17:08:42 MAIL Setting: 'valid'=''
+& 02 Nov 17:08:44 MAIL Modem reports: ato
+& 02 Nov 17:08:44 MAIL Modem reports: ERROR
